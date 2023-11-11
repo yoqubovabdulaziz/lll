@@ -1,0 +1,154 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100px;
+}
+
+.image {
+    animation: images 2s forwards;
+    width: 800px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40%;
+}
+
+.love {
+    width: 500px;
+    height: 700px;
+    font-size: 29px;
+    background-color: #021823;
+    color: red;
+    text-align: center;
+}
+
+.iqbola {
+    width: 100%;
+    margin-top: -200px;  
+    animation: span 1s linear 0s forwards;
+}
+
+h1 {
+    margin-left: -800px;
+    color: blue;
+    font-size: 40px;
+    animation: ishon 1s linear 1s forwards;
+}
+
+h1 {
+    animation-delay: 5s;
+}
+
+h5 {
+    margin-left: -800px;
+    color: blue;
+    animation: qachon 2s linear 1s forwards;
+}
+
+h5 {
+    animation-delay: 6s;
+}
+
+.seni {
+    margin-top: -200px;
+    width: 100%;
+    animation: span 1s linear 0s forwards;
+    color: transparent;
+}
+
+.sevaman {
+    margin-bottom: -800px;
+    animation: sev  4s linear 0s forwards;
+}
+
+@keyframes images {
+    0% {
+        margin-top: -250px;
+    }
+
+    50% {
+        margin-top: 100px;
+        width: 200px;
+        height: 100px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+@keyframes span {
+    0% {
+        margin-top: -200px;
+    }
+    50% {
+    }
+    
+    100% {
+        color: red;
+        margin-top: 0;
+    }
+    
+}
+
+@keyframes sev {
+    0% {
+        margin-top: -1000px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+.seni {
+    animation-delay: 1.5s;
+}
+
+@keyframes ishon {
+    0% {
+        margin-left: -800px;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes qachon {
+    0% {
+        margin-left: -800px;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+
+span, h1 {
+    font-family: roboto;
+}
+
+
+
+
+
+
+
+
+
+
